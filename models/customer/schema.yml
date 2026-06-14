@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+    - name: tpch
+      description: 'Ceci est un test.'
+      database: SNOWFLAKE_SAMPLE_DATA
+      schema: TPCH_SF1
+      tables:
+        - name: CUSTOMER
+          description: 'Ceci est un test.'
